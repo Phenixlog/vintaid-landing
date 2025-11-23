@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: #FAFAF9;
+        --foreground: #1C1917;
+        --primary: #1A4D2E;
+        --primary-foreground: #FFFFFF;
+        --secondary: #F5F5F0;
+        --secondary-foreground: #1C1917;
+        --muted: #78716C;
+        --muted-foreground: #FAFAF9;
+        --accent: #78716C;
+        --accent-foreground: #FAFAF9;
+        --border: #E7E5E4;
+        --radius: 0.75rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
