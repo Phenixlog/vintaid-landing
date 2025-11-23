@@ -46,12 +46,16 @@ export function Navbar() {
 
                         {/* Desktop Actions */}
                         <div className="hidden md:flex items-center gap-4">
-                            <Button variant="ghost" className="text-stone-600 hover:text-stone-900 h-9 rounded-full px-4">
-                                Se connecter
-                            </Button>
-                            <Button className="rounded-full bg-primary hover:bg-primary/90 text-white shadow-sm h-9 px-6">
-                                Scanner un article
-                            </Button>
+                            <Link href="https://vintaid.lovable.app/">
+                                <Button variant="ghost" className="text-stone-600 hover:text-stone-900 h-9 rounded-full px-4">
+                                    Se connecter
+                                </Button>
+                            </Link>
+                            <Link href="https://vintaid.lovable.app/">
+                                <Button className="rounded-full bg-primary hover:bg-primary/90 text-white shadow-sm h-9 px-6">
+                                    Scanner un article
+                                </Button>
+                            </Link>
                         </div>
 
                         {/* Mobile Menu Toggle */}
@@ -98,10 +102,14 @@ export function Navbar() {
                                 Comment ça marche
                             </Link>
                             <div className="h-px bg-stone-100 my-2" />
-                            <Button variant="ghost" className="w-full justify-start rounded-xl">
-                                Se connecter
-                            </Button>
-                            <Button className="w-full rounded-xl">Scanner un article</Button>
+                            <Link href="https://vintaid.lovable.app/">
+                                <Button variant="ghost" className="w-full justify-start rounded-xl">
+                                    Se connecter
+                                </Button>
+                            </Link>
+                            <Link href="https://vintaid.lovable.app/">
+                                <Button className="w-full rounded-xl">Scanner un article</Button>
+                            </Link>
                         </div>
                     </motion.div>
                 )}

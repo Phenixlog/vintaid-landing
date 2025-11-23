@@ -13,6 +13,7 @@ const PLANS = [
         description: "Pour tester la puissance de l'IA.",
         features: ["5 annonces / mois", "Détection IA basique", "Support standard"],
         cta: "Commencer gratuitement",
+        href: "https://vintaid.lovable.app/",
         popular: false,
         variant: "outline" as const,
     },
@@ -29,6 +30,7 @@ const PLANS = [
             "Support prioritaire",
         ],
         cta: "Choisir le Pro",
+        href: "https://vintaid.lovable.app/",
         popular: true,
         variant: "default" as const,
     },
@@ -45,6 +47,7 @@ const PLANS = [
             "Account Manager dédié",
         ],
         cta: "Contacter l'équipe",
+        href: "mailto:contact@vintaid.ai",
         popular: false,
         variant: "outline" as const,
     },
@@ -117,15 +120,17 @@ function PricingCard({ plan, index }: { plan: typeof PLANS[0], index: number }) 
                 ))}
             </ul>
 
-            <Button
-                variant={plan.variant === "default" ? "default" : "outline"}
-                className={cn(
-                    "w-full h-12 rounded-xl text-base font-semibold",
-                    plan.variant === "default" ? "bg-primary hover:bg-primary/90 shadow-lg shadow-primary/20" : "border-stone-200 hover:bg-stone-50"
-                )}
-            >
-                {plan.cta}
-            </Button>
+            <a href={plan.href} className="w-full block">
+                <Button
+                    variant={plan.variant === "default" ? "default" : "outline"}
+                    className={cn(
+                        "w-full h-12 rounded-xl text-base font-semibold",
+                        plan.variant === "default" ? "bg-primary hover:bg-primary/90 shadow-lg shadow-primary/20" : "border-stone-200 hover:bg-stone-50"
+                    )}
+                >
+                    {plan.cta}
+                </Button>
+            </a>
         </motion.div>
     );
 }

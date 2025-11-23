@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { Sparkles, ArrowRight, Play, Star, Check } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
@@ -71,11 +72,13 @@ export function Hero() {
                         {/* CTAs */}
                         <div className="flex flex-col gap-4">
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <Button size="lg" className="rounded-full gap-2 text-base h-12 px-8 shadow-lg shadow-primary/20">
-                                    <Sparkles className="h-4 w-4" />
-                                    Essayer sur une photo
-                                    <ArrowRight className="h-4 w-4 ml-1 opacity-50" />
-                                </Button>
+                                <Link href="https://vintaid.lovable.app/">
+                                    <Button size="lg" className="rounded-full gap-2 text-base h-12 px-8 shadow-lg shadow-primary/20">
+                                        <Sparkles className="h-4 w-4" />
+                                        Essayer sur une photo
+                                        <ArrowRight className="h-4 w-4 ml-1 opacity-50" />
+                                    </Button>
+                                </Link>
                                 <Button variant="outline" size="lg" className="rounded-full gap-2 text-base h-12 px-8 border-stone-300 hover:bg-stone-100">
                                     <Play className="h-4 w-4 fill-current" />
                                     Voir la démo

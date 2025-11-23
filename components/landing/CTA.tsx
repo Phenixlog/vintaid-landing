@@ -29,13 +29,15 @@ export function CTA() {
                         </p>
 
                         <div className="flex flex-col items-center gap-4 pt-4">
-                            <Button
-                                size="lg"
-                                className="h-14 rounded-full bg-white text-[#1A4D2E] hover:bg-stone-100 px-8 text-lg font-bold shadow-lg transition-transform hover:scale-105"
-                            >
-                                Commencer gratuitement
-                                <ArrowRight className="ml-2 h-5 w-5" />
-                            </Button>
+                            <a href="https://vintaid.lovable.app/">
+                                <Button
+                                    size="lg"
+                                    className="h-14 rounded-full bg-white text-[#1A4D2E] hover:bg-stone-100 px-8 text-lg font-bold shadow-lg transition-transform hover:scale-105"
+                                >
+                                    Commencer gratuitement
+                                    <ArrowRight className="ml-2 h-5 w-5" />
+                                </Button>
+                            </a>
 
                             <p className="text-sm text-stone-300 font-medium">
                                 Pas de carte bancaire requise • 5 crédits offerts
