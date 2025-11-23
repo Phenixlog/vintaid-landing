@@ -65,7 +65,7 @@ export function Hero() {
                                 </span>
                             </h1>
                             <p className="max-w-[600px] text-lg text-stone-600 md:text-xl leading-relaxed">
-                                Transformez une simple photo à plat en une photo portée ultra-réaliste. Vendez 3x plus vite. L'IA génère aussi votre titre et description.
+                                Transformez une simple photo à plat en une photo portée ultra-réaliste. Vendez 3x plus vite. L&apos;IA génère aussi votre titre et description.
                             </p>
                         </div>
 

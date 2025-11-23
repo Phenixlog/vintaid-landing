@@ -43,10 +43,10 @@ export function HowItWorks() {
                     {/* Section Header */}
                     <div className="text-center max-w-2xl mx-auto mb-16 space-y-4 relative z-10">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                            Vendre n'a jamais été aussi simple
+                            Vendre n&apos;a jamais été aussi simple
                         </h2>
                         <p className="text-lg text-stone-200">
-                            Trois étapes. Vingt secondes. C'est tout ce qu'il faut.
+                            Trois étapes. Vingt secondes. C&apos;est tout ce qu&apos;il faut.
                         </p>
                     </div>
 
@@ -104,7 +104,7 @@ export function HowItWorks() {
                                         Essayage IA
                                     </h3>
                                     <p className="text-stone-200 leading-relaxed text-sm">
-                                        Notre IA génère une photo portée ultra-réaliste et rédige l'annonce.
+                                        Notre IA génère une photo portée ultra-réaliste et rédige l&apos;annonce.
                                     </p>
                                 </div>
                             </div>

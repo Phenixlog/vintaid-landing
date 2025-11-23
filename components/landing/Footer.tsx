@@ -18,7 +18,7 @@ export function Footer() {
                             <span className="text-xl font-bold text-white">Vintaid.ai</span>
                         </div>
                         <p className="text-sm text-stone-400 leading-relaxed max-w-xs">
-                            L'intelligence artificielle qui transforme vos vêtements en ventes. Photos pro, descriptions optimisées, ventes accélérées.
+                            L&apos;intelligence artificielle qui transforme vos vêtements en ventes. Photos pro, descriptions optimisées, ventes accélérées.
                         </p>
                         <div className="flex items-center gap-4 pt-2">
                             <Link href="#" className="hover:text-white transition-colors">
@@ -46,9 +46,6 @@ export function Footer() {
                             <li>
                                 <Link href="/#how-it-works" className="hover:text-white transition-colors">Comment ça marche</Link>
                             </li>
-                            {/* <li>
-                                <Link href="/#testimonials" className="hover:text-white transition-colors">Témoignages</Link>
-                            </li> */}
                         </ul>
                     </div>
 

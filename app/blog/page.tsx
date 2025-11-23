@@ -3,23 +3,13 @@
 import { Navbar } from "@/components/landing/Navbar";
 import { Footer } from "@/components/landing/Footer";
 import Link from "next/link";
-import { ArrowRight, Calendar, Clock } from "lucide-react";
+import { Calendar, Clock, ArrowRight } from "lucide-react";
 
 const ARTICLES = [
     {
-        id: 1,
-        title: "Comment vendre 3x plus vite sur Vinted en 2025",
-        excerpt: "Les algorithmes ont changé. Voici les nouvelles règles pour faire remonter vos annonces en tête de liste sans payer de boost.",
-        category: "Guide Vente",
-        date: "22 Nov 2025",
-        readTime: "5 min",
-        image: "bg-emerald-100",
-        featured: true
-    },
-    {
         id: 2,
-        title: "L'art de la photo à plat : Tutoriel complet",
-        excerpt: "Pas besoin de mannequin. Apprenez à disposer vos vêtements pour un rendu professionnel qui attire l'œil.",
+        title: "L&apos;art de la photo à plat : Tutoriel complet",
+        excerpt: "Pas besoin de mannequin. Apprenez à disposer vos vêtements pour un rendu professionnel qui attire l&apos;œil.",
         category: "Photographie",
         date: "18 Nov 2025",
         readTime: "8 min",
@@ -29,7 +19,7 @@ const ARTICLES = [
     {
         id: 3,
         title: "Psychologie des prix : 19.99€ ou 20€ ?",
-        excerpt: "Une étude sur 10 000 ventes révèle les stratégies de prix qui déclenchent l'achat impulsif.",
+        excerpt: "Une étude sur 10 000 ventes révèle les stratégies de prix qui déclenchent l&apos;achat impulsif.",
         category: "Marketing",
         date: "15 Nov 2025",
         readTime: "4 min",
@@ -39,7 +29,7 @@ const ARTICLES = [
     {
         id: 4,
         title: "Les marques qui se revendent le mieux cet hiver",
-        excerpt: "Analyse des tendances de recherche. Ne manquez pas ces opportunités d'achat-revente.",
+        excerpt: "Analyse des tendances de recherche. Ne manquez pas ces opportunités d&apos;achat-revente.",
         category: "Tendances",
         date: "10 Nov 2025",
         readTime: "6 min",
@@ -62,7 +52,7 @@ export default function BlogPage() {
                             Le Blog <span className="text-[#1A4D2E]">Vintaid.</span>
                         </h1>
                         <p className="text-lg text-stone-600">
-                            Conseils d'experts, analyses de marché et tutoriels pour devenir un top vendeur.
+                            Conseils d&apos;experts, analyses de marché et tutoriels pour devenir un top vendeur.
                         </p>
                     </div>
 
@@ -106,7 +96,7 @@ export default function BlogPage() {
                                     </p>
 
                                     <div className="flex items-center text-[#1A4D2E] font-semibold text-sm mt-auto">
-                                        Lire l'article
+                                        Lire l&apos;article
                                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                                     </div>
                                 </div>

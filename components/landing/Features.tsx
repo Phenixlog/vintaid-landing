@@ -16,7 +16,7 @@ export function Features() {
                         <span className="text-stone-500">Sans mannequin.</span>
                     </h2>
                     <p className="text-lg text-stone-600">
-                        Transformez une simple photo à plat en un shooting professionnel. Vintaid s'occupe aussi du reste.
+                        Transformez une simple photo à plat en un shooting professionnel. Vintaid s&apos;occupe aussi du reste.
                     </p>
                 </div>
 

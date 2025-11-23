@@ -8,17 +8,20 @@ export default function ComingSoon() {
             <div className="bg-white p-4 rounded-2xl shadow-sm mb-6">
                 <Construction className="w-12 h-12 text-[#1A4D2E]" />
             </div>
-            <h1 className="text-4xl font-bold text-stone-900 mb-4">
+
+            <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
                 Bientôt disponible
             </h1>
-            <p className="text-lg text-stone-600 max-w-md mb-8">
+
+            <p className="text-stone-600 max-w-md mb-8">
                 Nous travaillons dur pour vous apporter cette fonctionnalité.
-                Inscrivez-vous pour être notifié du lancement.
+                Revenez très bientôt !
             </p>
+
             <Link href="/">
                 <Button variant="outline" className="gap-2">
                     <ArrowLeft className="w-4 h-4" />
-                    Retour à l'accueil
+                    Retour à l&apos;accueil
                 </Button>
             </Link>
         </div>

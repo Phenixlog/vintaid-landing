@@ -3,9 +3,7 @@
 import { Navbar } from "@/components/landing/Navbar";
 import { Footer } from "@/components/landing/Footer";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input"; // Assuming you have these or will use standard HTML if not
-import { Textarea } from "@/components/ui/textarea"; // Assuming you have these
-import { Mail, MessageSquare, MapPin, Send } from "lucide-react";
+import { Mail, MessageSquare, Send } from "lucide-react";
 
 export default function ContactPage() {
     return (
@@ -19,38 +17,23 @@ export default function ContactPage() {
 
                         {/* Left Column: Info */}
                         <div className="space-y-8">
-                            <div className="space-y-4">
-                                <h1 className="text-4xl md:text-5xl font-bold text-stone-900 tracking-tight">
-                                    Parlons de votre <br />
-                                    <span className="text-[#1A4D2E]">croissance Vinted.</span>
-                                </h1>
-                                <p className="text-lg text-stone-600 leading-relaxed">
-                                    Une question sur nos outils ? Besoin d'une démo personnalisée ?
-                                    Notre équipe est là pour vous aider à passer au niveau supérieur.
-                                </p>
+                            <div className="space-y-8">
+                                <Mail className="w-5 h-5 text-[#1A4D2E]" />
+                                <div>
+                                    <h3 className="font-semibold text-stone-900">Email</h3>
+                                    <p className="text-stone-500 text-sm mb-1">Notre équipe répond sous 24h.</p>
+                                    <a href="mailto:contact@vintaid.ai" className="text-[#1A4D2E] font-medium hover:underline">contact@vintaid.ai</a>
+                                </div>
                             </div>
 
-                            <div className="space-y-6">
-                                <div className="flex items-start gap-4 p-4 rounded-2xl bg-white border border-stone-100 shadow-sm">
-                                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center flex-shrink-0">
-                                        <Mail className="w-5 h-5 text-[#1A4D2E]" />
-                                    </div>
-                                    <div>
-                                        <h3 className="font-semibold text-stone-900">Email</h3>
-                                        <p className="text-stone-500 text-sm mb-1">Notre équipe répond sous 24h.</p>
-                                        <a href="mailto:contact@vintaid.ai" className="text-[#1A4D2E] font-medium hover:underline">contact@vintaid.ai</a>
-                                    </div>
+                            <div className="flex items-start gap-4 p-4 rounded-2xl bg-white border border-stone-100 shadow-sm">
+                                <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center flex-shrink-0">
+                                    <MessageSquare className="w-5 h-5 text-[#1A4D2E]" />
                                 </div>
-
-                                <div className="flex items-start gap-4 p-4 rounded-2xl bg-white border border-stone-100 shadow-sm">
-                                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center flex-shrink-0">
-                                        <MessageSquare className="w-5 h-5 text-[#1A4D2E]" />
-                                    </div>
-                                    <div>
-                                        <h3 className="font-semibold text-stone-900">Chat Support</h3>
-                                        <p className="text-stone-500 text-sm mb-1">Disponible pour les membres Pro.</p>
-                                        <span className="text-stone-400 text-sm">Via votre tableau de bord</span>
-                                    </div>
+                                <div>
+                                    <h3 className="font-semibold text-stone-900">Chat Support</h3>
+                                    <p className="text-stone-500 text-sm mb-1">Disponible pour les membres Pro.</p>
+                                    <span className="text-stone-400 text-sm">Via votre tableau de bord</span>
                                 </div>
                             </div>
                         </div>

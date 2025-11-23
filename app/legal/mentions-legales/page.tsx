@@ -38,8 +38,8 @@ export default function MentionsLegales() {
             <p>En cas de modification, interruption ou suspension des services le site Vintaid.ai ne saurait être tenu responsable.</p>
 
             <h2>4. Collecte des données</h2>
-            <p>Le site assure à l'utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.</p>
-            <p>Pour plus d'informations, référez-vous à notre <a href="/legal/confidentialite" className="text-primary hover:underline">Politique de Confidentialité</a>.</p>
+            <p>Le site assure à l&apos;utilisateur une collecte et un traitement d&apos;informations personnelles dans le respect de la vie privée. Conformément à la loi &quot;Informatique et Libertés&quot; du 6 janvier 1978 modifiée et au RGPD, vous disposez d&apos;un droit d&apos;accès, de rectification et de suppression des données vous concernant.</p>
+            <p>Pour plus d&apos;informations, référez-vous à notre <a href="/legal/confidentialite" className="text-primary hover:underline">Politique de Confidentialité</a>.</p>
         </>
     );
 }

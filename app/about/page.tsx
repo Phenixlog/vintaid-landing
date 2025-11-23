@@ -19,8 +19,8 @@ export default function AboutPage() {
                             <span className="text-[#1A4D2E]">la seconde main professionnelle.</span>
                         </h1>
                         <p className="text-xl text-stone-600 leading-relaxed max-w-2xl mx-auto">
-                            Vintaid.ai est né d'un constat simple : vendre ses vêtements prend trop de temps.
-                            Nous utilisons l'IA pour rendre la vente aussi simple que l'achat.
+                            Vintaid.ai est né d&apos;un constat simple : vendre ses vêtements prend trop de temps.
+                            Nous utilisons l&apos;IA pour rendre la vente aussi simple que l&apos;achat.
                         </p>
                     </div>
                 </section>
@@ -36,7 +36,7 @@ export default function AboutPage() {
                                 </div>
                                 <h3 className="text-xl font-bold text-stone-900">Vitesse Radicale</h3>
                                 <p className="text-stone-600">
-                                    Nous croyons que poster une annonce ne devrait pas prendre plus de 10 secondes. L'automatisation est notre ADN.
+                                    Nous croyons que poster une annonce ne devrait pas prendre plus de 10 secondes. L&apos;automatisation est notre ADN.
                                 </p>
                             </div>
 
@@ -46,7 +46,7 @@ export default function AboutPage() {
                                 </div>
                                 <h3 className="text-xl font-bold text-stone-900">Qualité Pro</h3>
                                 <p className="text-stone-600">
-                                    Tout le monde mérite des photos dignes d'un studio. Notre IA démocratise la direction artistique.
+                                    Tout le monde mérite des photos dignes d&apos;un studio. Notre IA démocratise la direction artistique.
                                 </p>
                             </div>
 
@@ -56,7 +56,7 @@ export default function AboutPage() {
                                 </div>
                                 <h3 className="text-xl font-bold text-stone-900">Impact Réel</h3>
                                 <p className="text-stone-600">
-                                    Plus c'est facile de vendre, moins on jette. Nous accélérons l'économie circulaire par la technologie.
+                                    Plus c&apos;est facile de vendre, moins on jette. Nous accélérons l&apos;économie circulaire par la technologie.
                                 </p>
                             </div>
 
